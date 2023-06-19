@@ -1,7 +1,9 @@
 import shutil
 
 def open_file(input_arg):
-   pass
+   file1 = open(input_arg, "r")
+   text = file1.readlines()
+   return text
 
 def output_flag_check(input_arg):
     pass
